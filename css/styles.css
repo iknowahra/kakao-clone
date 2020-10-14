@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import './reset.css';
+@import './variables.css';
 @import './status-bar.css';
 @import './screens/login.css';
+@import './screens/friends.css';
 @import './components/status-bar.css';
+@import './components/nav-bar.css';
+@import './components/screen-header.css';
+@import './components/user-component.css';
+
+* {
+  box-sizing: border-box;
+}
 
 body {
+  color: #2e363e;
+  padding-top: 40px;
   font-family: 'Open Sans', sans-serif;
 }

@@ -1,3 +1,6 @@
+.user-component {
+  margin-bottom: 20px;
+}
 .user-component,
 .user-component__column {
   display: flex;

@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@import './reset.css';
-@import './variables.css';
-@import './status-bar.css';
-@import './screens/login.css';
-@import './screens/friends.css';
-@import './components/status-bar.css';
-@import './components/nav-bar.css';
-@import './components/screen-header.css';
-@import './components/user-component.css';
+@import 'reset.css';
+@import 'variables.css';
+
+/* components */
+@import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
+@import 'components/badge.css';
+
+/* screens */
+@import 'screens/login.css';
+@import 'screens/friends.css';
 
 * {
   box-sizing: border-box;
@@ -17,4 +21,8 @@ body {
   color: #2e363e;
   padding-top: 40px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

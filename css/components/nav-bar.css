@@ -22,10 +22,12 @@
   bottom: 18px;
 }
 
-.nav__btn:last-child .nav__notification {
+.nav__notification-sm {
   width: 8px;
   height: 8px;
   position: absolute;
   left: 30px;
   bottom: 30px;
+  background-color: tomato;
+  border-radius: 50%;
 }

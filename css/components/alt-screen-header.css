@@ -6,13 +6,27 @@
 
 .alt-header__title {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
+}
+.alt-header__column {
+  width: 33%;
 }
 
 .alt-header__column:first-child {
-  margin-right: auto;
+  font-size: 14px;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
 
 .alt-header__column:last-child {
-  margin-left: auto;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.alt-header__column:last-child span:first-child {
+  margin-right: 20px;
 }

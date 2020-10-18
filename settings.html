@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setting - KakaoTalk</title>
+    <title>Settings - KakaoTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,19 +21,41 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Setting</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span class="screen-header__notification"
-          ><span class="screen-header__notification-dot"></span
-          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+
+    <header class="alt-header main-screen">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
       </div>
     </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i><span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i><span>Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i><span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">

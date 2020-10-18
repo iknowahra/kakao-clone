@@ -51,3 +51,22 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__text span {
+  display: flex;
+  align-items: flex-end;
+}
+
+.user-component__caution {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: rgb(218, 28, 28);
+  font-size: 12px;
+  opacity: 0.8;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 4px;
+  border: 1px solid rgb(218, 28, 28);
+}

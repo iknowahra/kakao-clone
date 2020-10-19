@@ -51,6 +51,7 @@
   align-items: center;
   animation: hideSplashScreen 0.2s ease-in-out forwards;
   animation-delay: 0.5s;
+  z-index: 3;
 }
 
 .splash-screen i {

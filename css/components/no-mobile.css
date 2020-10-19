@@ -1,0 +1,28 @@
+#no-mobile {
+  position: fixed;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+  #no-mobile {
+    display: none;
+  }
+}
